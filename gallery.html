@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gym Gallery</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+max-width:1000px;
+margin:auto;
+padding:40px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Fitness Gym</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="plans.html">Plans</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<h2 style="text-align:center;margin-top:30px;">Gym Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438">
+
+<img src="https://images.unsplash.com/photo-1550345332-09e3ac987658">
+
+<img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e">
+
+<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61">
+
+<img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48">
+
+<img src="https://images.unsplash.com/photo-1571019613914-85f342c55f6f">
+
+</div>
+
+<footer style="background:black;color:white;text-align:center;padding:15px;margin-top:40px;">
+© 2026 Fitness Gym
+</footer>
+
+</body>
+</html>
